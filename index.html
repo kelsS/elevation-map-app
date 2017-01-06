@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<html lang="en">
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    
+    <title>Map It!</title>
+    
+  
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="app.css">
+   <script src="app.js"></script>
+
+<link rel="icon" 
+      type="image/png" 
+      href="images/favicon.png">
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Rubik:400,500' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    
+<div id="map"></div>
+
+<div class="container">
+  <div class="jumbotron">
+      <div class="mainText">
+        <h1>Map any location!</h1>
+        <h3>But only on planet Earth.</h3>
+      </div>
+      
+      <div class="altText">
+          <h5>Just click the map for location elevations.</h5>
+      </div>
+  </div>
+    
+  <div class="row">
+       <div id="submitBox">
+              <input id="address" type="textbox" value="">
+              <input id="submit" type="button" value="Geocode">
+        </div>
+      
+  
+    </div>
+ 
+   
+  </div>
+</div>
+    
+
+  
+    
+    
+
+    
+    <script async defer
+ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3Y3vyQuFyir-TMcvxMKodo65aU1XA844&callback=initMap">
+    </script>
+</body>
+
+</html>
